@@ -1,8 +1,8 @@
-//
-//  Review.swift
-//  MovieReviewApp
-//
-//  Created by kyuhyeon Lee on 2/28/25.
-//
-
 import Foundation
+
+struct Review: Codable {
+    var id: UUID
+    var movieId: UUID
+    var content: String
+    var rating: Int
+}

@@ -1,19 +1,12 @@
-//
-//  ViewController.swift
-//  MovieReviewApp
-//
-//  Created by kyuhyeon Lee on 2/28/25.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var CollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
+
 
